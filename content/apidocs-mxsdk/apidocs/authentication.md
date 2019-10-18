@@ -10,13 +10,13 @@ tags: ["API", "API Key", "Authentication"]
 
 Most Mendix Platform APIs require their users to authenticate themselves. This is done by using API keys.
 
-## 2 Obtaining API Keys
+## 2 Obtaining Personal API Keys
 
-To obtain a Mendix API key, follow the instructions in the [API Keys](/developerportal/mendix-profile#api-key) section of *Mendix Profile*.
+To obtain a Personal Mendix API key, follow the instructions in the [API Keys](/developerportal/mendix-profile#api-key) section of *Mendix Profile*.
 
 ## 3 Using Authentication Headers
 
 Any call to the Mendix Platform APIs should be authenticated using the following request headers:
 
 * `Mendix-Username` – the login name of the requesting user with the required privileges in the Mendix Platform
-* `Mendix-ApiKey` – the API key of this user
+* `Mendix-ApiKey` – the API key of this user.
